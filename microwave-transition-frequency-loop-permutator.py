@@ -1,8 +1,8 @@
 # Author    :  Leo Y. Li
-# Release   :  2017/09/08
-# Version   :  1.1.0
+# Release   :  2018/02/21
+# Version   :  1.1.1
 
-def checkLoop(inputList, deviations=0.03, minimumSeparations=0, rounded=True, instantOutput=False, reportRates=250):
+def checkLoop(inputList, deviations=0.003, minimumSeparations=0, rounded=True, instantOutput=False, reportRates=250):
     # option insurance
     deviations = abs(deviations)
     reportRates = abs(reportRates)
