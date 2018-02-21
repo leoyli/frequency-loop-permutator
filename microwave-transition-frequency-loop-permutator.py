@@ -1,6 +1,7 @@
 # Author    :  Leo Y. Li
+# Licence   :  MIT
 # Release   :  2018/02/21
-# Version   :  1.1.1
+# Version   :  1.1.2
 
 def checkLoop(inputList, deviations=0.003, minimumSeparations=0, rounded=True, instantOutput=False, reportRates=250):
     # option insurance
